@@ -1,10 +1,10 @@
 "use strict";
 
 const gulp = require("gulp");
-const watch = require("gulp-watch");
 const sass = require("gulp-sass")(require("sass"));
 const autoprefixer = require("gulp-autoprefixer");
 const browserSync = require("browser-sync");
+const { watch } = require("browser-sync");
 
 const Asset = {
   html: "./*.html",
